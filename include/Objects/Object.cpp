@@ -21,8 +21,7 @@ const void Object::push(const std::pair<float, float> &p) {
 }
 
 const void Object::clear() {
-    this->verticesX.clear();
-    this->verticesY.clear();
+    this->clear();
     this->verticesSize = 0;
 }
 
