@@ -1,4 +1,4 @@
-#include "matplotlibcpp.h"
+#include "Matplotlib/matplotlibcpp.h"
 #include "Objects/Circle.h"
 #include "Objects/Square.h"
 #include "Objects/Triangle.h"

@@ -31,8 +31,7 @@ Rectangle::~Rectangle() {
 }
 
 const void Rectangle::solve() {
-    this->verticesX.clear();
-    this->verticesY.clear();
+    this->clear();
     this->verticesSize = 5;
     this->push({x0, y0});
     this->push({x0, a+y0});

@@ -17,8 +17,7 @@ Square::Square(const float &a, const float &x0, const float &y0) {
 }
 
 Square::~Square() {
-    this->verticesX.clear();
-    this->verticesY.clear();
+    this->clear();
 }
 
 const void Square::recalculateValues() {

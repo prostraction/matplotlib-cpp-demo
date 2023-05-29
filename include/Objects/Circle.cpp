@@ -24,8 +24,7 @@ Circle::~Circle() {
 }
 
 const void Circle::solve() {
-    this->verticesX.clear();
-    this->verticesY.clear();
+    this->clear();
     for (auto i = 0; i < 361; i++) {
         this->push({(x0 + std::sin((i % 360) * (M_PI / 180.)) * r), (y0 + std::cos((i % 360) * (M_PI / 180.)) * r)});
     }
